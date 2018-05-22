@@ -6,3 +6,7 @@
 - yum:
     name: postgresql10-server 
     state: latest
+
+- yum: 
+    name: postgresql10
+    state: latest
