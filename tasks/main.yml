@@ -7,6 +7,8 @@
     name: postgresql10-server 
     state: latest
 
+- shell: /usr/pgsql-10/bin/postgresql-10-setup initdb
+
 - yum: 
     name: postgresql10
     state: latest
