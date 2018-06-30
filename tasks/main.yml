@@ -13,4 +13,4 @@
 
 - shell: /usr/pgsql-10/bin/postgresql-10-setup initdb 
  
-- service: name=postgresql-10 state=restarted
+- service: name=postgresql-10 state=restarted enabled=yes
