@@ -10,3 +10,7 @@
 - yum: 
     name: postgresql10
     state: latest
+
+- shell: /usr/pgsql-10/bin/postgresql-10-setup initdb 
+ 
+- service: name=postgresql-10 state=restarted
